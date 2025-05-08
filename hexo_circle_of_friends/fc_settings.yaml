@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://blog.bornforthis.cn/link/", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
+     { link: "https://614447.xyz/friends/", theme: "stellar" },  # 友链页地址1，修改为你的友链页地址
     #  { link: "https://blog.class1v1.com/link/", theme: "common2" }, # 友链页地址2
 #     { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -33,7 +33,7 @@ SETTINGS_FRIENDS_LINKS: {
     enable: false,
     json_api: "",
     list: [
-        ["AI悦创", "https://bornforthis.cn", "https://bornforthis.cn/aiyc.png"],
+        ["AI悦创", "https://www.healpy.me/", "https://bornforthis.cn/aiyc.png"],
         # 示例1：
         # ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         # ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
@@ -58,10 +58,10 @@ GITEE_FRIENDS_LINKS: {
 # get links from github
 # 从github issue中获取友链
 GITHUB_FRIENDS_LINKS: {
-    enable: false, # true 开启github issue兼容
-    type: "normal",  # volantis/stellar用户请在这里填写volantis
-    owner: "ccknbc",  # 填写你的github用户名
-    repo: "ccknbc-actions",  # 填写你的github仓库名
+    enable: true, # true 开启github issue兼容
+    type: "volantis",  # volantis/stellar用户请在这里填写volantis
+    owner: "vmoranv",  # 填写你的github用户名
+    repo: "hexo-circle-of-friends",  # 填写你的github仓库名
     state: "open",  # 填写抓取的issue状态(open/closed)
     label: "active",  # 填写抓取的issue标签
 }
